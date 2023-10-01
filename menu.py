@@ -37,7 +37,7 @@ def pushup(root):
 def call():
     root=Tk()
     canvas = Canvas(root, width=2000, height=800)
-    photo = ImageTk.PhotoImage(Image.open("C:\\Users\\user\\Downloads\\frontdesign.png"))
+    photo = ImageTk.PhotoImage(Image.open("C:\\Users\\user\\Downloads\\background.jpeg"))
 
     canvas.create_image(0,0, anchor=NW, image=photo)
     canvas.pack()
